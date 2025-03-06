@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+    color: #172c66;
+    box-sizing: border-box;
+    background-color: #fef6e4;
+}
+
+header {
+    background-color: #172c66;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+.menu {
+    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+    
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fef6e4;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.menu a:hover {
+    background-color: #f582ae;
+    color: #0d1b44;
+}
+
+nav {
+    background-color: #0d1b44;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#about-me {
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+#about-me > img {
+    border-radius: 120px;
+    display: block;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+main {
+    margin: 20px;
+
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+}
+
+.global-container {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.container-main {
+    flex: 3;
+    
+}
+
+aside {
+    flex: 1;
+    
+}
+
+.container-main > h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.social-media {
+    display: block;
+    text-align: center;
+}
+
+.social-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.social-menu a {
+    text-decoration: none;
+    color: #172c66;
+    
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.social-menu li {
+   
+    margin-bottom: 20px;
+}
+
+.social-menu a:hover {
+    background-color: #f582ae;
+    
+    
+}
+
+.contact-info {
+    display: block;
+    text-align: center;
+    
+    margin-top: 50px;
+}
+
+.contact-info button {
+    width: 100px;
+    background-color: #f582ae;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 10px;
+    border: none;
+}
+
+.contact-info button:hover {
+    background-color: #001858;
+    color: white;
+    box-shadow: 0 0 10px;
+}
+
+.card {
+    border: 1px solid #172c66;
+    margin: 15px;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
